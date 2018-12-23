@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FFD65CF21CFEB3B00EC420F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD65CE21CFEB3B00EC420F /* AppDelegate.swift */; };
+		9FFD65D121CFEB3B00EC420F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD65D021CFEB3B00EC420F /* ViewController.swift */; };
+		9FFD65D321CFEB3D00EC420F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD65D221CFEB3D00EC420F /* Assets.xcassets */; };
+		9FFD65D621CFEB3D00EC420F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFD65D421CFEB3D00EC420F /* Main.storyboard */; };
+		9FFD65E221CFEB3D00EC420F /* McRedditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD65E121CFEB3D00EC420F /* McRedditTests.swift */; };
+		9FFD65ED21CFEB3D00EC420F /* McRedditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD65EC21CFEB3D00EC420F /* McRedditUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FFD65DE21CFEB3D00EC420F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFD65C321CFEB3B00EC420F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFD65CA21CFEB3B00EC420F;
+			remoteInfo = McReddit;
+		};
+		9FFD65E921CFEB3D00EC420F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FFD65C321CFEB3B00EC420F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FFD65CA21CFEB3B00EC420F;
+			remoteInfo = McReddit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FFD65CB21CFEB3B00EC420F /* McReddit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = McReddit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFD65CE21CFEB3B00EC420F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FFD65D021CFEB3B00EC420F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FFD65D221CFEB3D00EC420F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FFD65D521CFEB3D00EC420F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FFD65D721CFEB3D00EC420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFD65D821CFEB3D00EC420F /* McReddit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = McReddit.entitlements; sourceTree = "<group>"; };
+		9FFD65DD21CFEB3D00EC420F /* McRedditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McRedditTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFD65E121CFEB3D00EC420F /* McRedditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McRedditTests.swift; sourceTree = "<group>"; };
+		9FFD65E321CFEB3D00EC420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FFD65E821CFEB3D00EC420F /* McRedditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = McRedditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFD65EC21CFEB3D00EC420F /* McRedditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McRedditUITests.swift; sourceTree = "<group>"; };
+		9FFD65EE21CFEB3D00EC420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFD65C821CFEB3B00EC420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD65DA21CFEB3D00EC420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD65E521CFEB3D00EC420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FFD65C221CFEB3B00EC420F = {
+			isa = PBXGroup;
+			children = (
+				9FFD65CD21CFEB3B00EC420F /* McReddit */,
+				9FFD65E021CFEB3D00EC420F /* McRedditTests */,
+				9FFD65EB21CFEB3D00EC420F /* McRedditUITests */,
+				9FFD65CC21CFEB3B00EC420F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFD65CC21CFEB3B00EC420F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD65CB21CFEB3B00EC420F /* McReddit.app */,
+				9FFD65DD21CFEB3D00EC420F /* McRedditTests.xctest */,
+				9FFD65E821CFEB3D00EC420F /* McRedditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFD65CD21CFEB3B00EC420F /* McReddit */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD65CE21CFEB3B00EC420F /* AppDelegate.swift */,
+				9FFD65D021CFEB3B00EC420F /* ViewController.swift */,
+				9FFD65D221CFEB3D00EC420F /* Assets.xcassets */,
+				9FFD65D421CFEB3D00EC420F /* Main.storyboard */,
+				9FFD65D721CFEB3D00EC420F /* Info.plist */,
+				9FFD65D821CFEB3D00EC420F /* McReddit.entitlements */,
+			);
+			path = McReddit;
+			sourceTree = "<group>";
+		};
+		9FFD65E021CFEB3D00EC420F /* McRedditTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD65E121CFEB3D00EC420F /* McRedditTests.swift */,
+				9FFD65E321CFEB3D00EC420F /* Info.plist */,
+			);
+			path = McRedditTests;
+			sourceTree = "<group>";
+		};
+		9FFD65EB21CFEB3D00EC420F /* McRedditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FFD65EC21CFEB3D00EC420F /* McRedditUITests.swift */,
+				9FFD65EE21CFEB3D00EC420F /* Info.plist */,
+			);
+			path = McRedditUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFD65CA21CFEB3B00EC420F /* McReddit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFD65F121CFEB3D00EC420F /* Build configuration list for PBXNativeTarget "McReddit" */;
+			buildPhases = (
+				9FFD65C721CFEB3B00EC420F /* Sources */,
+				9FFD65C821CFEB3B00EC420F /* Frameworks */,
+				9FFD65C921CFEB3B00EC420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = McReddit;
+			productName = McReddit;
+			productReference = 9FFD65CB21CFEB3B00EC420F /* McReddit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FFD65DC21CFEB3D00EC420F /* McRedditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFD65F421CFEB3D00EC420F /* Build configuration list for PBXNativeTarget "McRedditTests" */;
+			buildPhases = (
+				9FFD65D921CFEB3D00EC420F /* Sources */,
+				9FFD65DA21CFEB3D00EC420F /* Frameworks */,
+				9FFD65DB21CFEB3D00EC420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFD65DF21CFEB3D00EC420F /* PBXTargetDependency */,
+			);
+			name = McRedditTests;
+			productName = McRedditTests;
+			productReference = 9FFD65DD21CFEB3D00EC420F /* McRedditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FFD65E721CFEB3D00EC420F /* McRedditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFD65F721CFEB3D00EC420F /* Build configuration list for PBXNativeTarget "McRedditUITests" */;
+			buildPhases = (
+				9FFD65E421CFEB3D00EC420F /* Sources */,
+				9FFD65E521CFEB3D00EC420F /* Frameworks */,
+				9FFD65E621CFEB3D00EC420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FFD65EA21CFEB3D00EC420F /* PBXTargetDependency */,
+			);
+			name = McRedditUITests;
+			productName = McRedditUITests;
+			productReference = 9FFD65E821CFEB3D00EC420F /* McRedditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFD65C321CFEB3B00EC420F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thomas Ricouard";
+				TargetAttributes = {
+					9FFD65CA21CFEB3B00EC420F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9FFD65DC21CFEB3D00EC420F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9FFD65CA21CFEB3B00EC420F;
+					};
+					9FFD65E721CFEB3D00EC420F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9FFD65CA21CFEB3B00EC420F;
+					};
+				};
+			};
+			buildConfigurationList = 9FFD65C621CFEB3B00EC420F /* Build configuration list for PBXProject "McReddit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FFD65C221CFEB3B00EC420F;
+			productRefGroup = 9FFD65CC21CFEB3B00EC420F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFD65CA21CFEB3B00EC420F /* McReddit */,
+				9FFD65DC21CFEB3D00EC420F /* McRedditTests */,
+				9FFD65E721CFEB3D00EC420F /* McRedditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFD65C921CFEB3B00EC420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD65D321CFEB3D00EC420F /* Assets.xcassets in Resources */,
+				9FFD65D621CFEB3D00EC420F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD65DB21CFEB3D00EC420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD65E621CFEB3D00EC420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFD65C721CFEB3B00EC420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD65D121CFEB3B00EC420F /* ViewController.swift in Sources */,
+				9FFD65CF21CFEB3B00EC420F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD65D921CFEB3D00EC420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD65E221CFEB3D00EC420F /* McRedditTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FFD65E421CFEB3D00EC420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFD65ED21CFEB3D00EC420F /* McRedditUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FFD65DF21CFEB3D00EC420F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFD65CA21CFEB3B00EC420F /* McReddit */;
+			targetProxy = 9FFD65DE21CFEB3D00EC420F /* PBXContainerItemProxy */;
+		};
+		9FFD65EA21CFEB3D00EC420F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FFD65CA21CFEB3B00EC420F /* McReddit */;
+			targetProxy = 9FFD65E921CFEB3D00EC420F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FFD65D421CFEB3D00EC420F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFD65D521CFEB3D00EC420F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFD65EF21CFEB3D00EC420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FFD65F021CFEB3D00EC420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9FFD65F221CFEB3D00EC420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = McReddit/McReddit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				INFOPLIST_FILE = McReddit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.McReddit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9FFD65F321CFEB3D00EC420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = McReddit/McReddit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				INFOPLIST_FILE = McReddit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.McReddit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		9FFD65F521CFEB3D00EC420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				INFOPLIST_FILE = McRedditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.McRedditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McReddit.app/Contents/MacOS/McReddit";
+			};
+			name = Debug;
+		};
+		9FFD65F621CFEB3D00EC420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				INFOPLIST_FILE = McRedditTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.McRedditTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McReddit.app/Contents/MacOS/McReddit";
+			};
+			name = Release;
+		};
+		9FFD65F821CFEB3D00EC420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				INFOPLIST_FILE = McRedditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.McRedditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = McReddit;
+			};
+			name = Debug;
+		};
+		9FFD65F921CFEB3D00EC420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z6P74P6T99;
+				INFOPLIST_FILE = McRedditUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomasricouard.McRedditUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = McReddit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFD65C621CFEB3B00EC420F /* Build configuration list for PBXProject "McReddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD65EF21CFEB3D00EC420F /* Debug */,
+				9FFD65F021CFEB3D00EC420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFD65F121CFEB3D00EC420F /* Build configuration list for PBXNativeTarget "McReddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD65F221CFEB3D00EC420F /* Debug */,
+				9FFD65F321CFEB3D00EC420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFD65F421CFEB3D00EC420F /* Build configuration list for PBXNativeTarget "McRedditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD65F521CFEB3D00EC420F /* Debug */,
+				9FFD65F621CFEB3D00EC420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFD65F721CFEB3D00EC420F /* Build configuration list for PBXNativeTarget "McRedditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFD65F821CFEB3D00EC420F /* Debug */,
+				9FFD65F921CFEB3D00EC420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFD65C321CFEB3B00EC420F /* Project object */;
+}
